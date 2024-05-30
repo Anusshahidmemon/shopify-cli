@@ -1,18 +1,22 @@
-<h1>This work s</h1>
-
+{% if section.settings.show-announcement %}
+<section>Announcement bar</section>
+{%endif%}
 {% schema %}
   {
-    "name": "Liquid Reference",
-    "tag": "section",
-    "class": "liquid-ref",
-    "settings": [
-      
+    "name": "Announcement bar",
+    "settings": [ 
+        {
+            "type": "checkbox",
+            "id": "show-announcement",
+            "label": "show-announcement",
+            "default": true
+           
+        }
     ],
     "presets": [
       {
-        "name": "Liquid Reference",
-        "settings": {
-        }
+        "name": "announcement bar",
+       "settings": {}
       }
     ]
   }
