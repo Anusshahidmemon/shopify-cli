@@ -1,12 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
     "liquid_ref_H9FiFk": {
       "type": "liquid-ref",
       "settings": {
@@ -16,10 +9,17 @@
         "background": "#f4f4f4",
         "text": "#402323"
       }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
     }
   },
   "order": [
-    "main",
-    "liquid_ref_H9FiFk"
+    "liquid_ref_H9FiFk",
+    "main"
   ]
 }
