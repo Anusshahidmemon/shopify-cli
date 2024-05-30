@@ -6,9 +6,20 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "liquid_ref_H9FiFk": {
+      "type": "liquid-ref",
+      "settings": {
+        "show-announcement": true,
+        "image": "shopify:\/\/shop_images\/cd.webp",
+        "image2": "shopify:\/\/shop_images\/DSC02928_750x_989acdeb-1221-449c-b3c8-6272789ea029.webp",
+        "background": "#f4f4f4",
+        "text": "#402323"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "liquid_ref_H9FiFk"
   ]
 }
