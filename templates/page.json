@@ -6,20 +6,9 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "liquid_ref_Fqt3NT": {
-      "type": "liquid-ref",
-      "settings": {
-        "show-announcement": true,
-        "image": "shopify:\/\/shop_images\/download_83fd7964-ac11-4046-9258-0076c9ebd62f.jpg",
-        "image2": "shopify:\/\/shop_images\/download_19760147-57e1-408f-973e-d0de0f7ad3cd.jpg",
-        "background": "#f4f4f4",
-        "text": "#000"
-      }
     }
   },
   "order": [
-    "main",
-    "liquid_ref_Fqt3NT"
+    "main"
   ]
 }
