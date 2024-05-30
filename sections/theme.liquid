@@ -1,7 +1,8 @@
 <html>
     <head>
-        
+      {% render 'pagefly_head' %}
         {{content_for_header}}
+        {{ theme.css |  asset_url |  stylesheet_tag }}
     </head>
     <body>
         {% section 'announcement-bar' %}
