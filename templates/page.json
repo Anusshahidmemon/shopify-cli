@@ -1,15 +1,5 @@
 {
   "sections": {
-    "liquid_ref_nYAYcK": {
-      "type": "liquid-ref",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "show-announcement": true,
-        "image": "shopify:\/\/shop_images\/DSC02928_750x_989acdeb-1221-449c-b3c8-6272789ea029.webp"
-      }
-    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -19,7 +9,6 @@
     }
   },
   "order": [
-    "liquid_ref_nYAYcK",
     "main"
   ]
 }

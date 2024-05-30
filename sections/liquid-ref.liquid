@@ -9,11 +9,25 @@
             <img width="40" height="40" loading="lazy" src="{{ 'a.png' | asset_url  }}">
             {%- endif -%}
         </div>
-        <div class="announcement-bar-right-section"></div>
+        <div class="announcement-bar-right-section">
+            {%- if section.settings.image2 != blank -%}
+                <img width="40" height="40" loading="lazy" src="{{ section.settings.image2 |  image_url  }}">
+                {%- else -%}
+                <img width="40" height="40" loading="lazy" src="{{ 'b.png' | asset_url  }}">
+                {%- endif -%}
+        </div>
     </div>
   
 </section>
 {%endif%}
+<style>
+    .announcement-bar{
+        background-color:{{ section.settings.background }};
+        | color: {{ section.settings.text }};
+      }
+</style>
+
+
 {% schema %}
   {
     "name": "Announcement bar",
@@ -30,6 +44,25 @@
             "id": "image",
             "label": "pick image",
              "info":"png recommended format"
+       
+        },
+        {
+            "type": "image_picker",
+            "id": "image2",
+            "label": "pick image",
+             "info":"png recommended format"
+        },
+        {
+            "type": "color",
+            "id": "background",
+            "label": "background",
+             "default":"#f4f4f4"
+        },
+        {
+            "type": "color",
+            "id": "text",
+            "label": "Text",
+             "default":"#000"
         }
     ],
     "presets": [
