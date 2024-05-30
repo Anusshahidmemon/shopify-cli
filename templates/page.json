@@ -6,9 +6,16 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "liquid_ref_nYAYcK": {
+      "type": "liquid-ref",
+      "settings": {
+        "show-announcement": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "liquid_ref_nYAYcK"
   ]
 }
