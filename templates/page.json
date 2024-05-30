@@ -1,21 +1,25 @@
 {
   "sections": {
+    "liquid_ref_nYAYcK": {
+      "type": "liquid-ref",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "show-announcement": true,
+        "image": "shopify:\/\/shop_images\/DSC02928_750x_989acdeb-1221-449c-b3c8-6272789ea029.webp"
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "liquid_ref_nYAYcK": {
-      "type": "liquid-ref",
-      "settings": {
-        "show-announcement": true
-      }
     }
   },
   "order": [
-    "main",
-    "liquid_ref_nYAYcK"
+    "liquid_ref_nYAYcK",
+    "main"
   ]
 }
