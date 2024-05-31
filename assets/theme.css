@@ -6,6 +6,6 @@ body{
 /* announcement bar  */
 .announcement-bar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between !important;
     padding: 0px 30px;
 }
