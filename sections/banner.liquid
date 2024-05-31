@@ -1,9 +1,10 @@
 <section>
-   <div class="banner-wrapper">
+    <h1>hello</h1>
+   {% comment %} <div class="banner-wrapper">
 <div class="slide-text" id="text-1"> slide 1 </div>
 <div class="slide-text" id="text-2"> slide 2 </div>
 <div class="slide-text" id="text-3"> slide 3 </div>
-   </div>
+   </div> {% endcomment %}
 </section>
 <style>
     .banner-wrapper{
@@ -23,7 +24,7 @@
 
        }
 </style>
-<script>
+{% comment %} <script>
     document.addEventListener('DomContentLoaded',function(){
         let text1 = document.getElementById('text1')
         let text2 = document.getElementById('text2')
@@ -44,7 +45,7 @@
         slideToMiddle(texts[currentIndex])
         setInterval(slideText,3000)
     })
-</script>
+</script> {% endcomment %}
 {% schema %}
   {
     "name": "Banner",
