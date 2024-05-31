@@ -4,18 +4,6 @@
   "sections": {
     "liquid_ref_rjGDVi": {
       "type": "liquid-ref",
-      "blocks": {
-        "links_7PcFkb": {
-          "type": "links",
-          "settings": {
-            "text": "red",
-            "link": "shopify:\/\/pages\/liquid"
-          }
-        }
-      },
-      "block_order": [
-        "links_7PcFkb"
-      ],
       "settings": {
         "show-announcement": true,
         "image": "shopify:\/\/shop_images\/download_19760147-57e1-408f-973e-d0de0f7ad3cd.jpg",
