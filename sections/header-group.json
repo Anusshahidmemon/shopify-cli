@@ -9,7 +9,7 @@
           "type": "links",
           "settings": {
             "text": "red",
-            "link": ""
+            "link": "shopify:\/\/pages\/liquid"
           }
         }
       },
@@ -21,7 +21,7 @@
         "image": "shopify:\/\/shop_images\/download_19760147-57e1-408f-973e-d0de0f7ad3cd.jpg",
         "image2": "shopify:\/\/shop_images\/download.jpg",
         "background": "#f4f4f4",
-        "text": "#000"
+        "text": "#000000"
       }
     },
     "header": {
