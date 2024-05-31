@@ -6,7 +6,7 @@
     </div>
 
     <div>
-<ul class="middle-nav-bar">
+<ul class="middle-nav-links">
     {% for link in linklists['main-menu'].links %}
     <li>{{ link.title |  link_to: link.url }}</li>
     {% endfor %}
@@ -18,7 +18,7 @@
         <input type="text" class="search-nav" type="search" placeholder="search">
         </form>
         <a href="/">
-        <img  width="40" height="40" loading="lazy" src="{{ nike.png |  asset_url}}">
+        <img  width="40" height="40" loading="lazy" src="{{ bag.png |  asset_url}}">
         </a>
     </div>
 </header>
