@@ -9,6 +9,9 @@ body{
     justify-content: space-between;
     padding: 0px 30px;
 }
+.announcement-bar-inner-list{
+    display: flex;
+}
 .announcement-bar-inner-list li{
     padding: 3px;
     font-size: 15px;
