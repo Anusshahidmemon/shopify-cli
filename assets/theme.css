@@ -22,12 +22,14 @@ body{
     color: inherit;
     text-decoration: none;
 }
+/* header nav */
 .header-nav{
     display: flex;
     justify-content: space-between;
     margin: 0px;
     padding: 1px;
     background-color: #fff;
+    align-items: center;
 }
 .middle-nav-links{
     display: flex ;
