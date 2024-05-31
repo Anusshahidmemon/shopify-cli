@@ -1,1 +1,24 @@
-<h1>this ios the header</h1>
+<header class="hearder-nav">
+    <div>
+       <a href="/">
+       <img  width="80" height="50" loading="lazy" src="{{ nike.png |  asset_url}}">
+       </a> 
+    </div>
+
+    <div>
+<ul class="middle-nav-bar">
+    {% for link in linklists['main-menu'].links %}
+    <li>{{ link.title |  link_to: link.url }}</li>
+    {% endfor %}
+</ul>
+    </div>
+
+    <div class="right-nav-item">
+        <form action="/search">
+        <input type="text" class="search-nav" type="search" placeholder="search">
+        </form>
+        <a href="/">
+        <img  width="40" height="40" loading="lazy" src="{{ nike.png |  asset_url}}">
+        </a>
+    </div>
+</header>
