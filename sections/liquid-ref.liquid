@@ -51,13 +51,13 @@
   
 </section>
 {%endif%}
-<style>
-    .announcement-bar{
+{%- style -%}
+   .announcement-bar{
         background-color:{{ section.settings.background }};
         color: {{ section.settings.text }};
       
       }
-</style>
+{%- endstyle -%}
 
 
 {% schema %}
