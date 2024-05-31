@@ -7,7 +7,7 @@
    </div> {% endcomment %}
 </section>
 <style>
-    .banner-wrapper{
+    /* .banner-wrapper{
          background-color:{{ section.settings.background }};
          color: {{ section.settings.text }};
        
@@ -22,30 +22,9 @@
         font-size: 20px;
         transition: left 0.5s ease-in-out;
 
-       }
+       } */
 </style>
-<script>
-    document.addEventListener('DomContentLoaded',function(){
-        let text1 = document.getElementById('text1')
-        let text2 = document.getElementById('text2')
-        let text3 = document.getElementById('text3')
-        const text =[text1,text2,text3]
-        let currentIndex=0;
-        function slideToMiddle(element){
-            element.style.left ="40%";
-        }
-        function resetPosition(element){
-            element.style.left ="-100%";
-        }
-        function slideText(){
-           resetPosition(texts[currentIndex])
-           currentIndex=  (currentIndex + 1) % texts.length  
-           slideToMiddle(texts[currentIndex])
-        }
-        slideToMiddle(texts[currentIndex])
-        setInterval(slideText,3000)
-    })
-</script>
+
 {% schema %}
   {
     "name": "Banner",
