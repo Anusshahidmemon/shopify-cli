@@ -1,3 +1,22 @@
 <nav>
   {%  render 'header' %} 
 </nav>
+{% schema %}
+  {
+    "name": "Navbar",
+    "settings": [
+      {
+        "type":"image_picker",
+        "id":"image",
+        "label": "image"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Navbar",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}

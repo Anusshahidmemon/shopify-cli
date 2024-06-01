@@ -1,8 +1,15 @@
 <header class="header-nav">
     <div>
-       <a href="/">
-       <img  width="80" height="50" loading="lazy" src="{{ 'nike.png' |  asset_url}}">
-       </a> 
+        {%- if section.settings.image != blank -%}
+            <a href="/">
+            <img  width="80" height="50" loading="lazy" src="{{ 'nike.png' |  asset_url}}">
+            </a>
+            {%- else -%}
+            <a href="/">
+            <img  width="80" height="50" loading="lazy" src="{{ section.settings.image | image_url }}">
+            </a> 
+        {%- endif -%}
+       
     </div>
 
     <div>
