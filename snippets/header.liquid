@@ -22,9 +22,12 @@
     </div>
 
     <div class="right-nav-item">
-        <form action="/search" class="Search-Form">
-        <input type="text" class="search-nav" type="search" placeholder="search">
-        </form>
+        {%- if section.settings.search-bar -%}
+            <form action="/search" class="Search-Form">
+            <input type="text" class="search-nav" type="search" placeholder="search">
+            </form>
+        {%- endif -%}
+      
         <a href="/">
         <img  width="40" height="40" loading="lazy" src="{{ 'bag.png' |  asset_url}}">
         </a>
