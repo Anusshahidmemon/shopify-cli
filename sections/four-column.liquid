@@ -2,54 +2,68 @@
 <div class="four-column">
     <div class="col">
       {%- if section.settings.image1 != blank -%}
-        <img  width="40" height="40" loading="lazy" src="{{ section.settings.image1 | image_url }}">
+        <img class="img" width="40" height="40" loading="lazy" src="{{ section.settings.image1 | image_url }}">
         {%- else -%}
         <svg id="Layer_1" class="img" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"><defs><style>.cls-1{fill:#c1e8fb;}.cls-2{fill:#202020;}</style></defs><title>orders</title><circle class="cls-1" cx="212" cy="212" r="162"></circle><path class="cls-2" d="M460,449.18l-20-243A10,10,0,0,0,430,197H358V143a10,10,0,0,0-10-10H246a10,10,0,0,0-10,10v54H164a10,10,0,0,0-10,9.18l-20,243A10,10,0,0,0,144,460H450a10,10,0,0,0,10-10.82ZM154.86,440l18.35-223H236v28a10,10,0,0,0,20,0V208.81a9.72,9.72,0,0,0,0-3.62V153h82v44H293.34a10,10,0,0,0,0,20H338v28a10,10,0,0,0,20,0V217h62.79l18.35,223Z"></path><rect class="cls-2" x="297.67" y="399" width="105" height="14"></rect></svg>
       {%- endif -%}
       {%- if section.settings.text1 != blank -%}
+        <a href="{{ section.settings.link1 }}">
         <span>{{ section.settings.text1 }}</span>
+        </a>
         {%- else -%}
-            
+        <a href="/">
         <span>Free Shiopping over 49$</span>
+        </a>
       {%- endif -%}
     </div>
     <div class="col">
         {%- if section.settings.image2 !=  blank -%}
-            <img  width="40" height="40" loading="lazy" src="{{ section.settings.image2 | image_url }}">
+            <img class="img" width="40" height="40" loading="lazy" src="{{ section.settings.image2 | image_url }}">
             {%- else -%}
             <svg id="Layer_1" class="img" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"><defs><style>.cls-1{fill:#c1e8fb;}.cls-2{fill:#202020;}</style></defs><title>orders</title><circle class="cls-1" cx="212" cy="212" r="162"></circle><path class="cls-2" d="M460,449.18l-20-243A10,10,0,0,0,430,197H358V143a10,10,0,0,0-10-10H246a10,10,0,0,0-10,10v54H164a10,10,0,0,0-10,9.18l-20,243A10,10,0,0,0,144,460H450a10,10,0,0,0,10-10.82ZM154.86,440l18.35-223H236v28a10,10,0,0,0,20,0V208.81a9.72,9.72,0,0,0,0-3.62V153h82v44H293.34a10,10,0,0,0,0,20H338v28a10,10,0,0,0,20,0V217h62.79l18.35,223Z"></path><rect class="cls-2" x="297.67" y="399" width="105" height="14"></rect></svg>
           {%- endif -%}
           {%- if section.settings.text2 != blank -%}
+            <a href="{{ section.settings.link2 }}">
             <span>{{ section.settings.text2 }}</span>
+            </a>
             {%- else -%}
-                
+            <a href="/">
             <span>Free Shiopping over 49$</span>
+            </a>
           {%- endif -%}
     </div>
     <div class="col">
         {%- if section.settings.image3 != blank -%}
-            <img  width="40" height="40" loading="lazy" src="{{ section.settings.image3 | image_url }}">
+            <img class="img" width="40" height="40" loading="lazy" src="{{ section.settings.image3 | image_url }}">
             {%- else -%}
             <svg id="Layer_1" class="img" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"><defs><style>.cls-1{fill:#c1e8fb;}.cls-2{fill:#202020;}</style></defs><title>orders</title><circle class="cls-1" cx="212" cy="212" r="162"></circle><path class="cls-2" d="M460,449.18l-20-243A10,10,0,0,0,430,197H358V143a10,10,0,0,0-10-10H246a10,10,0,0,0-10,10v54H164a10,10,0,0,0-10,9.18l-20,243A10,10,0,0,0,144,460H450a10,10,0,0,0,10-10.82ZM154.86,440l18.35-223H236v28a10,10,0,0,0,20,0V208.81a9.72,9.72,0,0,0,0-3.62V153h82v44H293.34a10,10,0,0,0,0,20H338v28a10,10,0,0,0,20,0V217h62.79l18.35,223Z"></path><rect class="cls-2" x="297.67" y="399" width="105" height="14"></rect></svg>
           {%- endif -%}
           {%- if section.settings.text3 != blank -%}
+            <a href="{{ section.settings.link3 }}">
             <span>{{ section.settings.text3 }}</span>
+            </a>
             {%- else -%}
-                
+            <a href="/">
             <span>Free Shiopping over 49$</span>
+            </a>
           {%- endif -%}
     </div>
     <div class="col">
         {%- if section.settings.image4 != blank -%}
-            <img  width="40" height="40" loading="lazy" src="{{ section.settings.image4 | image_url }}">
+       
+            <img class="img" width="40" height="40" loading="lazy" src="{{ section.settings.image4 | image_url }}">
+
             {%- else -%}
             <svg id="Layer_1" class="img" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"><defs><style>.cls-1{fill:#c1e8fb;}.cls-2{fill:#202020;}</style></defs><title>orders</title><circle class="cls-1" cx="212" cy="212" r="162"></circle><path class="cls-2" d="M460,449.18l-20-243A10,10,0,0,0,430,197H358V143a10,10,0,0,0-10-10H246a10,10,0,0,0-10,10v54H164a10,10,0,0,0-10,9.18l-20,243A10,10,0,0,0,144,460H450a10,10,0,0,0,10-10.82ZM154.86,440l18.35-223H236v28a10,10,0,0,0,20,0V208.81a9.72,9.72,0,0,0,0-3.62V153h82v44H293.34a10,10,0,0,0,0,20H338v28a10,10,0,0,0,20,0V217h62.79l18.35,223Z"></path><rect class="cls-2" x="297.67" y="399" width="105" height="14"></rect></svg>
           {%- endif -%}
           {%- if section.settings.text4 != blank -%}
+            <a href="{{ section.settings.link4 }}">
             <span>{{ section.settings.text4 }}</span>
+            </a>
             {%- else -%}
-                
+            <a href="/">
             <span>Free Shiopping over 49$</span>
+            </a>
           {%- endif -%}
     </div>
 </div>
@@ -124,6 +138,26 @@
         "id":"text4",
         "label": "col-4-text"
         
+      },
+      {
+        "type": "url",
+        "id": "link1",
+        "label":"col-1-link"
+      },
+      {
+        "type": "url",
+        "id": "link2",
+        "label":"col-2-link"
+      },
+      {
+        "type": "url",
+        "id": "link3",
+        "label":"col-3-link"
+      },
+      {
+        "type": "url",
+        "id": "link4",
+        "label":"col-4-link"
       }
 
         ],
