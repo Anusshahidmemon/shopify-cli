@@ -9,10 +9,16 @@
       "type": "three-images",
       "settings": {
       }
+    },
+    "four-column": {
+      "type": "four-column",
+      "settings": {
+      }
     }
   },
   "order": [
     "banner",
-    "three-images"
+    "three-images",
+    "four-column"
   ]
 }
